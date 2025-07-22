@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen's Tuitions - Student Admissions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="./shutterstock_1152414497-1024x683.webp" alt="Naveen's Tuitions" class="logo-img">
+                    <span class="logo-text">Naveen's Tuitions</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#admission" class="nav-link">Admission</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#Careers" class="nav-link">Careers</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Naveen's Tuitions</h1>
+                <p class="hero-subtitle">Excellence in Education Since 2010</p>
+                <p class="hero-description">Join thousands of successful students who have achieved their academic goals with our expert guidance and personalized learning approach.</p>
+                <div class="hero-buttons">
+                    <a href="#admission" class="btn btn-primary">Apply Now</a>
+                    <a href="#courses" class="btn btn-secondary">View Courses</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./240_F_449246206_d8zZin2xak5IjmqMXviQmS66puENGA2u.jpg" alt="Students studying" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Naveen's Tuitions</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Gateway to Academic Excellence</h3>
+                    <p>With over 13 years of experience in education, Naveen's Tuitions has been the trusted choice for students seeking quality education and personalized attention. Our dedicated team of experienced educators is committed to nurturing every student's potential.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <h4>5000+</h4>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>95%</h4>
+                            <p>Success Rate</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h4>25+</h4>
+                            <p>Expert Teachers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./royal-tuition-classes-sarkhej-ahmedabad-tutorials-for-class-x-english-viyzcunq6e.avif" alt="Classroom" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Mathematics</h3>
+                    <p>Comprehensive coverage of algebra, geometry, calculus, and statistics with practical applications.</p>
+                    <ul>
+                        <li>Class 6-12</li>
+                        <li>Competitive Exams</li>
+                        <li>Board Preparation</li>
+                        <li>IIT Main preparation</li>
+
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry, and Biology with hands-on experiments and real-world applications.</p>
+                    <ul>
+                        <li>Class 6-12</li>
+                        <li>NEET Preparation</li>
+                        <li>JEE Preparation</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>English</h3>
+                    <p>Grammar, literature, communication skills, and competitive English preparation.</p>
+                    <ul>
+                        <li>All Classes</li>
+                        <li>IELTS/TOEFL</li>
+                        <li>Communication Skills</li>
+                    </ul>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Computer Science</h3>
+                    <p>Programming, web development, and computer applications for modern education.</p>
+                    <ul>
+                        <li>Class 6-12</li>
+                        <li>Programming</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Form Section -->
+    <section id="admission" class="admission">
+        <div class="container">
+            <h2 class="section-title">Student Admission Form</h2>
+            <div class="form-container">
+                <form id="admissionForm" class="admission-form">
+                    <div class="form-header">
+                        <h3>Personal Information</h3>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="dob">Date of Birth *</label>
+                            <input type="date" id="dob" name="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender *</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address *</label>
+                        <textarea id="address" name="address" rows="3" required></textarea>
+                    </div>
+
+                    <div class="form-header">
+                        <h3>Academic Information</h3>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="currentSchool">Current School/College *</label>
+                            <input type="text" id="currentSchool" name="currentSchool" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="currentClass">Current Class/Grade *</label>
+                            <select id="currentClass" name="currentClass" required>
+                                <option value="">Select Class</option>
+                                <option value="6">Class 6</option>
+                                <option value="7">Class 7</option>
+                                <option value="8">Class 8</option>
+                                <option value="9">Class 9</option>
+                                <option value="10">Class 10</option>
+                                <option value="11">Class 11</option>
+                                <option value="12">Class 12</option>
+                                <option value="college">College</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="board">Board/University *</label>
+                            <select id="board" name="board" required>
+                                <option value="">Select Board</option>
+                                <option value="cbse">CBSE</option>
+                                <option value="icse">ICSE</option>
+                                <option value="state">State Board</option>
+                                <option value="international">International</option>
+                                <option value="university">University</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="percentage">Previous Year Percentage</label>
+                            <input type="number" id="percentage" name="percentage" min="0" max="100" step="0.01">
+                        </div>
+                    </div>
+
+                    <div class="form-header">
+                        <h3>Course Selection</h3>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Select Courses *</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="math" name="courses" value="mathematics">
+                                <label for="math">Mathematics</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="science" name="courses" value="science">
+                                <label for="science">Science</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="english" name="courses" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="computer" name="courses" value="computer">
+                                <label for="computer">Computer Science</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="batch">Preferred Batch *</label>
+                            <select id="batch" name="batch" required>
+                                <option value="">Select Batch</option>
+                                <option value="morning">Morning (6:00 AM - 8:00 AM)</option>
+                                <option value="afternoon">Afternoon (2:00 PM - 4:00 PM)</option>
+                                <option value="evening">Evening (6:00 PM - 8:00 PM)</option>
+                                <option value="weekend">Weekend (Saturday & Sunday)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="startDate">Preferred Start Date *</label>
+                            <input type="date" id="startDate" name="startDate" required>
+                        </div>
+                    </div>
+
+                    <div class="form-header">
+                        <h3>Parent/Guardian Information</h3>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="parentName">Parent/Guardian Name *</label>
+                            <input type="text" id="parentName" name="parentName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="parentPhone">Parent/Guardian Phone *</label>
+                            <input type="tel" id="parentPhone" name="parentPhone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="parentEmail">Parent/Guardian Email</label>
+                        <input type="email" id="parentEmail" name="parentEmail">
+                    </div>
+
+                    <div class="form-header">
+                        <h3>Additional Information</h3>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="medicalInfo">Medical Information (if any)</label>
+                        <textarea id="medicalInfo" name="medicalInfo" rows="2"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="howDidYouHear">How did you hear about us?</label>
+                        <select id="howDidYouHear" name="howDidYouHear">
+                            <option value="">Select Option</option>
+                            <option value="social-media">Social Media</option>
+                            <option value="friend">Friend/Family</option>
+                            <option value="advertisement">Advertisement</option>
+                            <option value="website">Website</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="additionalInfo">Additional Information</label>
+                        <textarea id="additionalInfo" name="additionalInfo" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the terms and conditions *</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for updates</label>
+                        </div>
+                    </div>
+
+                    <div class="form-buttons">
+                        <button type="submit" class="btn btn-primary">Submit Application</button>
+                        <button type="reset" class="btn btn-secondary">Reset Form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>101 New Bowenpally, sec-bad, Knowledge City<br>Telangana - 500011, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 98765 43210<br>+91 98765 43211</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@naveenstuitions.com<br>admissions@naveenstuitions.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday: 6:00 AM - 8:00 PM<br>Sunday: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <img src="./googleMapsTricksHero.avif" alt="Location Map" class="map-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="./shutterstock_1152414497-1024x683.webp" alt="Naveen's Tuitions" class="logo-img">
+                        <span class="logo-text">Naveen's Tuitions</span>
+                    </div>
+                    <p>Empowering students with quality education and personalized learning since 2010.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#admission">Admission</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#courses">Mathematics</a></li>
+                        <li><a href="#courses">Science</a></li>
+                        <li><a href="#courses">English</a></li>
+                        <li><a href="#courses">Computer Science</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates and educational tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Naveen's Tuitions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Application Submitted Successfully!</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <i class="fas fa-check-circle success-icon"></i>
+                <p>Thank you for submitting your application to Naveen's Tuitions. We have received your information and will contact you within 24-48 hours to confirm your admission.</p>
+                <p><strong>Application ID:</strong> <span id="applicationId"></span></p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
